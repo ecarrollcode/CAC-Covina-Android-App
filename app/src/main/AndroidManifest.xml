@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ecarroll.cachcapp">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Children&apos;s Advocacy Center"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Children&apos;s Advocacy Center">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SupportActivity"
+            android:label="Support" />
+        <activity
+            android:name=".ReportActivity"
+            android:label="Report" />
+        <activity
+            android:name=".ShareActivity"
+            android:label="Share" />
+        <activity
+            android:name=".ShareHotlineActivity"
+            android:label="Share Hotline" />
+        <activity
+            android:name=".CaliforniaReportActivity"
+            android:label="Report for California" />
+        <activity
+            android:name=".CaliforniaShareHotlineActivity"
+            android:label="Share California Hotline" />
+        <activity
+            android:name=".SMSActivity"
+            android:label="Send SMS" />
+    </application>
+
+</manifest>
